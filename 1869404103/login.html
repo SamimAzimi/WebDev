@@ -2,6 +2,7 @@
 <html>
     <head>
         <link href="./css/loginpage.css" rel="stylesheet" />
+        <link href="./css/fai/css/all.css" rel="stylesheet" />
     </head>
     <body>
         <header>
@@ -10,24 +11,42 @@
         <main>
             <img src="./images/big.png" alt="mobileLogin"/>
             <form>
-                <h1>Login</h1>
+                <h4>Login</h4>
                 <div>
-                    <label>Icons</label>
-                    <input type="text" id="usr"/>
+                    <label><i class="fa-solid fa-user"></i></label>
+                    <input type="text" class="inputText" id="usr"/>
+                </div>
+                <div>
+                    <label><i class="fa-solid fa-lock"></i></label>
+                    <input type="text" class="inputText" id="passwd" />
+                </div>
+                <div class="remember">
+                    <input type="radio" id="radio" />
+                    <p>Remember ME</p>
+                </div>
+                <button>Login</button>
+                <h5>Login with Socials</h5>
+                <div class="social">
+
+                    <div><i class="fa-brands fa-weixin"></i>Weixin</div>
+                    <div><i class="fa-brands fa-weibo"></i>Weibo</div>
+                    <div><i class="fa-brands fa-qq"></i>QQ</div>
                 </div>
                
-                <div>
-                    <label>Icons</label>
-                    <input type="text" id="passwd" />
-                </div>
-                <input type="radio" />Remeber Me 
-                <button>Login</button>
-                <h1>Login With Social</h1>
-                <div>Wechat</div>
               </form>
         </main>
         <footer>
-            <h1>footer Page</h1>
+            <div>
+                <ul class="footerSection">
+                    <li>Privacy Policy</li>
+                    <li>Site Links</li>
+                    <li>About us</li>
+                </ul>
+            </div>
+            <div>
+
+                All right Reserved 	&#169;
+            </div>
         </footer>
     </body>
 </html>
