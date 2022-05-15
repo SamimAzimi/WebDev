@@ -3,14 +3,18 @@
     <head>
         <link href="./css/loginpage.css" rel="stylesheet" />
         <link href="./css/fai/css/all.css" rel="stylesheet" />
+        <script defer src="./js/login.js"></script>
+    
+       
     </head>
     <body>
         <header>
             <img src="./images/logobig.png" />
         </header>
         <main>
+            <div id="navhidden" style="display: hidden;"></div>
             <img src="./images/big.png" alt="mobileLogin"/>
-            <form>
+            <form id="loginForm">
                 <h4>Login</h4>
                 <div>
                     <label><i class="fa-solid fa-user"></i></label>
@@ -24,7 +28,7 @@
                     <input type="radio" id="radio" />
                     <p>Remember ME</p>
                 </div>
-                <button>Login</button>
+                <input type="submit" value="Login" id="loginbtn"></button>
                 <h5>Login with Socials</h5>
                 <div class="social">
 
@@ -36,7 +40,7 @@
               </form>
         </main>
         <footer>
-            <div>
+            <div class="ulsectionfooter">
                 <ul class="footerSection">
                     <li>Privacy Policy</li>
                     <li>Site Links</li>
